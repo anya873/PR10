@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Human_Shapovalova.Classes
 {
-    internal class Phrase
+    public class Phrase
     {
+        public string _Phrase {  get; set; }
+        public string Src { get; set; }
+        public Phrase(string Phrase, String Src)
+        {
+            this._Phrase = Phrase;
+            this.Src = Src;
+        }
     }
 }
