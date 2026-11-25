@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace Human_Shapovalova.Classes
 {
@@ -34,9 +34,9 @@ namespace Human_Shapovalova.Classes
         public static List<Phrase> AllPhrases()
         {
             List<Phrase> allPhrases = new List<Phrase>();
-            allPhrases.Add(new Phrase("Привет", @"..."));
-            allPhrases.Add(new Phrase("Как дела?", @"..."));
-            allPhrases.Add(new Phrase("Меня зовут Анна", @"..."));
+            allPhrases.Add(new Phrase("Привет", @"D:\МДК01.01\Voices\Voice1.mp3"));
+            allPhrases.Add(new Phrase("Как дела?", @"D:\МДК01.01\Voices\Voice2.mp3"));
+            allPhrases.Add(new Phrase("Меня зовут Анна", @"D:\МДК01.01\Voices\Voice3.mp3"));
             return allPhrases;
         }
     }
